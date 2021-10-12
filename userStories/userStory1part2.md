@@ -7,7 +7,7 @@ I'd like to remove an item from my basket
 **Objects**
 - bagel
 - basket
-- customer
+
   
   
 
