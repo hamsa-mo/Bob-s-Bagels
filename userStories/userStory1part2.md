@@ -13,7 +13,7 @@ I'd like to remove an item from my basket
 
 **Messages**
 
-- addItem()
+- removeItem()
 - name()
  
 **Properties**
@@ -28,10 +28,10 @@ I'd like to remove an item from my basket
   
 <br><br>
 
-| Objects | Properties                | Messages  | Output      |
-| ------- | ------------------------- | --------- | ----------- |
-| bagel   | name `@string`            | name()    | `@string`   |
-| basket  | itemList`(@array[@item])` | addItem() | `@itemList` |
+| Objects | Properties                | Messages     | Output      |
+| ------- | ------------------------- | ------------ | ----------- |
+| bagel   | name `@string`            | name()       | `@string`   |
+| basket  | itemList`(@array[@item])` | removeItem() | `@itemList` |
 |         |
 
 
