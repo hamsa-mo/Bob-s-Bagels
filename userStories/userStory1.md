@@ -1,11 +1,11 @@
 # User Story 1
 
-As a member of the public,
-So that I can change my order
-I'd like to remove an item from my basket
+As a member of the public
+So I can order a bagel when I want to
+I'd like to add an item to my basket
 
 **Objects**
-- bagel
+- item
 - basket
   
   
@@ -13,8 +13,8 @@ I'd like to remove an item from my basket
 **Messages**
 
 - addItem()
-- name()
- 
+- removeItem()
+  
 **Properties**
 
 - name `@String`
@@ -27,10 +27,10 @@ I'd like to remove an item from my basket
   
 <br><br>
 
-| Objects | Properties                | Messages  | Output      |
-| ------- | ------------------------- | --------- | ----------- |
-| bagel   | name `@string`            | name()    | `@string`   |
-| basket  | itemList`(@array[@item])` | addItem() | `@itemList` |
+| Objects | Properties                | Messages                 | Output      |
+| ------- | ------------------------- | ------------------------ | ----------- |
+| item    | name `@string`            |                          | `@string`   |
+| basket  | itemList`(@array[@item])` | addItem(), removeItem(); | `@itemList` |
 |         |
 
 
